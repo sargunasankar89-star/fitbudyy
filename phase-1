@@ -1,0 +1,124 @@
+Phase 1 -- Brainstorming & Ideation
+
+Project Title
+
+FitBuddy -- AI-Powered Personalized Fitness and Wellness Planner
+
+1. Problem Statement
+
+Many people need simple and personalized guidance to plan regular
+physical activity and maintain healthy daily habits. Generic workout
+plans may not consider a user's goal, preferred intensity, or feedback.
+
+FitBuddy is proposed as an AI-powered wellness application that
+generates a personalized seven-day workout plan and provides general
+nutrition/recovery guidance. Users can also submit feedback and receive
+an updated plan.
+
+2. Idea Generation
+
+The project idea was developed around the following needs: -
+Personalized workout planning - Simple and easy-to-use fitness
+guidance - AI-assisted plan generation - General nutrition and recovery
+tips - Ability to improve a plan based on user feedback - A web-based
+interface that is easy to access - Storage of user plans for later
+viewing
+
+3. Proposed Solution
+
+FitBuddy will be developed as a web application using: - Frontend:
+HTML, CSS and JavaScript with Jinja2 templates - Backend: Python
+FastAPI - Database: SQLite with SQLAlchemy - AI: Google Gemini
+API - API Documentation: FastAPI Swagger UI and ReDoc
+
+The application will collect basic user information such as user ID,
+name, age, weight, goal and preferred intensity. It will then generate a
+seven-day general wellness workout plan and a nutrition/recovery tip.
+
+Users can provide feedback about the generated plan. FitBuddy will use
+the feedback to create a revised plan.
+
+4. Target Users
+
+The proposed application is intended for users who want: - A simple
+starting point for regular physical activity - Personalized general
+wellness planning - Easy-to-understand workout schedules - AI-assisted
+adjustments based on feedback
+
+The application is intended for general wellness and is not a
+replacement for professional medical advice.
+
+5. Key Features Identified During Brainstorming
+
+User profile input
+
+Seven-day workout plan generation
+
+AI-powered personalization
+
+General nutrition/recovery guidance
+
+Feedback-based plan revision
+
+SQLite database storage
+
+Admin/user management functionality
+
+REST API endpoints
+
+Swagger API documentation
+
+Demo mode for running without an API key
+
+6. Expected Benefits
+
+Saves time when creating a basic weekly activity plan
+
+Provides a structured seven-day schedule
+
+Makes AI assistance available through a simple web interface
+
+Allows users to provide feedback and revise a plan
+
+Demonstrates practical use of Generative AI in a web application
+
+Provides a complete project that can be tested and demonstrated
+
+7. Initial Technology Ideas
+
+Area                      Proposed Technology
+
+Programming Language      Python
+Backend Framework         FastAPI
+Frontend                  HTML, CSS, JavaScript
+Template Engine           Jinja2
+Database                  SQLite
+ORM                       SQLAlchemy
+AI/LLM                    Google Gemini
+API Testing               Swagger UI / ReDoc
+Development Environment   Visual Studio Code
+Version Control           Git and GitHub
+
+8. Initial Project Workflow
+
+User Input → FastAPI Backend → Gemini AI → Workout/Nutrition Response
+→ SQLite Storage → Web Result
+
+For feedback:
+
+User Feedback → FastAPI → Gemini AI → Revised Workout Plan → Updated
+Result
+
+9. Initial Brainstorming Outcome
+
+The brainstorming phase resulted in the idea of building FitBuddy, a
+web-based Generative AI application that combines FastAPI, SQLite and
+Gemini to provide personalized general wellness workout planning and
+feedback-based plan updates.
+
+10. Conclusion
+
+FitBuddy was selected as a practical Generative AI project because it
+combines AI/LLM integration, web development, database management and
+REST APIs in one application. The next phase will identify the detailed
+functional and non-functional requirements of the system.
